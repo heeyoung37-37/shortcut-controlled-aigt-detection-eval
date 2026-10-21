@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying paper when using AIGT-SignalBench."
+title: "AIGT-SignalBench"
+type: dataset
+authors:
+  - family-names: Jung
+    given-names: Hee-Young
+  - family-names: Ahn
+    given-names: Jae-Eon
+  - family-names: Park
+    given-names: Seong-Jin
+  - family-names: Kim
+    given-names: Kang-Min
+repository-code: "https://github.com/heeyoung37-37/shortcut-controlled-aigt-detection-eval"
+keywords:
+  - AI-generated text detection
+  - shortcut learning
+  - benchmark
+  - AI-assisted writing
+preferred-citation:
+  type: conference-paper
+  title: "Shortcut-Controlled Evaluation for AI-Generated Text Detection"
+  authors:
+    - family-names: Jung
+      given-names: Hee-Young
+    - family-names: Ahn
+      given-names: Jae-Eon
+    - family-names: Park
+      given-names: Seong-Jin
+    - family-names: Kim
+      given-names: Kang-Min
+  conference:
+    name: "EMNLP 2026"
+  year: 2026

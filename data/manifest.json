@@ -1,0 +1,206 @@
+{
+  "dataset_name": "AIGT-SignalBench",
+  "export_name": "Benchmark_public",
+  "created_at": "2026-05-20T03:08:59.588956+00:00",
+  "schema_version": "1.1-minimal",
+  "format": "Domain-level JSONL files. Each row contains only the text pair and minimal labels.",
+  "row_schema": {
+    "original": "Human reference/source-side human text corresponding to the same task instance.",
+    "sampled": "AI-generated or edited text for the row.",
+    "domain_label": "Task/domain label.",
+    "model_label": "AI model that produced the first-pass generation.",
+    "variant_type": "raw_ai, ai_edited, or human_edited."
+  },
+  "domains": [
+    "essay",
+    "arxiv_abstract",
+    "blog",
+    "product_review",
+    "peer_review",
+    "meeting_summary",
+    "translation"
+  ],
+  "models": [
+    "claude-sonnet-4-6",
+    "deepseek-v4-pro",
+    "gemini-2.5-pro",
+    "gpt-3.5-turbo",
+    "gpt-4",
+    "gpt-5.5"
+  ],
+  "variants": [
+    "raw_ai",
+    "ai_edited",
+    "human_edited"
+  ],
+  "files": [
+    {
+      "domain_label": "essay",
+      "path": "essay.jsonl",
+      "rows": 180,
+      "rows_by_variant": {
+        "raw_ai": 60,
+        "ai_edited": 60,
+        "human_edited": 60
+      },
+      "rows_by_model": {
+        "claude-sonnet-4-6": 30,
+        "deepseek-v4-pro": 30,
+        "gemini-2.5-pro": 30,
+        "gpt-3.5-turbo": 30,
+        "gpt-4": 30,
+        "gpt-5.5": 30
+      },
+      "bytes": 536880,
+      "sha256": "9125e49571b57ca70b078333493af2048c290d9324349367fa2fcb85f2181500"
+    },
+    {
+      "domain_label": "arxiv_abstract",
+      "path": "arxiv_abstract.jsonl",
+      "rows": 180,
+      "rows_by_variant": {
+        "raw_ai": 60,
+        "ai_edited": 60,
+        "human_edited": 60
+      },
+      "rows_by_model": {
+        "claude-sonnet-4-6": 30,
+        "deepseek-v4-pro": 30,
+        "gemini-2.5-pro": 30,
+        "gpt-3.5-turbo": 30,
+        "gpt-4": 30,
+        "gpt-5.5": 30
+      },
+      "bytes": 302953,
+      "sha256": "c0ff63d6d095c876382407b5ba7332f1d63a9a7d2df3f2a5108030090444803a"
+    },
+    {
+      "domain_label": "blog",
+      "path": "blog.jsonl",
+      "rows": 180,
+      "rows_by_variant": {
+        "raw_ai": 60,
+        "ai_edited": 60,
+        "human_edited": 60
+      },
+      "rows_by_model": {
+        "claude-sonnet-4-6": 30,
+        "deepseek-v4-pro": 30,
+        "gemini-2.5-pro": 30,
+        "gpt-3.5-turbo": 30,
+        "gpt-4": 30,
+        "gpt-5.5": 30
+      },
+      "bytes": 1017985,
+      "sha256": "8eddef1afea455bcc393fead519ed41b02bc3c72faa5aa6137519cc051125af7"
+    },
+    {
+      "domain_label": "product_review",
+      "path": "product_review.jsonl",
+      "rows": 180,
+      "rows_by_variant": {
+        "raw_ai": 60,
+        "ai_edited": 60,
+        "human_edited": 60
+      },
+      "rows_by_model": {
+        "claude-sonnet-4-6": 30,
+        "deepseek-v4-pro": 30,
+        "gemini-2.5-pro": 30,
+        "gpt-3.5-turbo": 30,
+        "gpt-4": 30,
+        "gpt-5.5": 30
+      },
+      "bytes": 271134,
+      "sha256": "ac4faac7214fa37ee904186966cfefe2dc9fc63aea13bceada46066c035db94e"
+    },
+    {
+      "domain_label": "peer_review",
+      "path": "peer_review.jsonl",
+      "rows": 180,
+      "rows_by_variant": {
+        "raw_ai": 60,
+        "ai_edited": 60,
+        "human_edited": 60
+      },
+      "rows_by_model": {
+        "claude-sonnet-4-6": 30,
+        "deepseek-v4-pro": 30,
+        "gemini-2.5-pro": 30,
+        "gpt-3.5-turbo": 30,
+        "gpt-4": 30,
+        "gpt-5.5": 30
+      },
+      "bytes": 555648,
+      "sha256": "47670d8b390faaf40450c58d8659ca88fcb72248599ae27f5c6fba9bdc2caa43"
+    },
+    {
+      "domain_label": "meeting_summary",
+      "path": "meeting_summary.jsonl",
+      "rows": 180,
+      "rows_by_variant": {
+        "raw_ai": 60,
+        "ai_edited": 60,
+        "human_edited": 60
+      },
+      "rows_by_model": {
+        "claude-sonnet-4-6": 30,
+        "deepseek-v4-pro": 30,
+        "gemini-2.5-pro": 30,
+        "gpt-3.5-turbo": 30,
+        "gpt-4": 30,
+        "gpt-5.5": 30
+      },
+      "bytes": 252335,
+      "sha256": "2349043508de9a29d494c1f3cbc888ac907169969254487549fc10a485ecc0cf"
+    },
+    {
+      "domain_label": "translation",
+      "path": "translation.jsonl",
+      "rows": 180,
+      "rows_by_variant": {
+        "raw_ai": 60,
+        "ai_edited": 60,
+        "human_edited": 60
+      },
+      "rows_by_model": {
+        "claude-sonnet-4-6": 30,
+        "deepseek-v4-pro": 30,
+        "gemini-2.5-pro": 30,
+        "gpt-3.5-turbo": 30,
+        "gpt-4": 30,
+        "gpt-5.5": 30
+      },
+      "bytes": 307496,
+      "sha256": "fdeb6418f514460aa30bacc585cdcf7c97d98493da440d947b36fc8771a975c4"
+    }
+  ],
+  "totals": {
+    "files": 7,
+    "rows": 1260,
+    "rows_by_domain": {
+      "essay": 180,
+      "arxiv_abstract": 180,
+      "blog": 180,
+      "product_review": 180,
+      "peer_review": 180,
+      "meeting_summary": 180,
+      "translation": 180
+    },
+    "rows_by_variant": {
+      "raw_ai": 420,
+      "ai_edited": 420,
+      "human_edited": 420
+    },
+    "rows_by_model": {
+      "claude-sonnet-4-6": 210,
+      "deepseek-v4-pro": 210,
+      "gemini-2.5-pro": 210,
+      "gpt-3.5-turbo": 210,
+      "gpt-4": 210,
+      "gpt-5.5": 210
+    }
+  },
+  "source_export": "Benchmark_public (final Benchmark_length_matched text pairs)",
+  "prepared_at": "2026-10-21"
+}
