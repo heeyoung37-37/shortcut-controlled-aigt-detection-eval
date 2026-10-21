@@ -8,19 +8,13 @@
 Kyung Hee University · The Catholic University of Korea  
 \* Equal contribution
 
-**[Dataset](data/README.md) · [Prompts](prompts/README.md) · [Data Generation](data_generation/README.md) · [Citation](CITATION.cff)**
+**[Project Page](https://heeyoung37-37.github.io/shortcut-controlled-aigt-detection-eval/) · [Dataset](data/README.md) · [Prompts](prompts/README.md) · [Data Generation](data_generation/README.md) · [Citation](CITATION.cff)**
 
 </div>
 
 > A compact release of shortcut-controlled human–AI text pairs, construction prompts, and the code used to generate and edit the benchmark.
 
-[![Interactive benchmark explorer](assets/preview.webp)](index.html)
-
-### Interactive explorer
-
-Download this folder and open **[`index.html`](index.html)** in a browser. No installation, server, or API key is needed. Explore all 1,260 pairs by domain, generator, and condition; compare texts, browse the original prompts, and save selected pairs.
-
-GitHub's README displays the preview image. The interactive page runs locally, or as a website after hosting is enabled. To refresh the offline content after editing data or prompt documents, run `python3 build_site.py`.
+Explore benchmark samples and construction prompts on the [Project Page](https://heeyoung37-37.github.io/shortcut-controlled-aigt-detection-eval/).
 
 ## At a glance
 
@@ -63,9 +57,6 @@ The released files are byte-for-byte copies of the final public export. See the 
 data/              Final benchmark: 7 JSONL files + manifest + data card
 prompts/           Generation, fact extraction, AI edit, and human guidelines
 data_generation/   Historical preparation, generation, editing, and export code
-index.html         Interactive benchmark and prompt explorer
-assets/            Website styles, scripts, offline content, and preview
-build_site.py      Refresh offline website content from the release files
 CITATION.cff       Paper and dataset citation metadata
 ```
 
